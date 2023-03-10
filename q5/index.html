@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="formulario">
+        <div id="header">
+            <h1>Cadastro de Países</h1>
+            <p id="legendas">Informe o País A com menor população e maior % de crescimento e verifique em quanto tempo
+                ele terá mais população que o país B.
+            </p>
+        </div>
+        <label class="label" for="paisA">População País A</label>
+        <input class="input" id="paisA" type="number" placeholder="Digite a população do país">
+        
+        <label class="label" for="paisB">População País B</label>
+        <input class="input" id="paisB" type="number" placeholder="Digite a população do país" >
+
+        <label class="label" for="crescimentoA">Crescimento do País A</label>
+        <input class="input" id="crescimentoA" type="number" placeholder="Informe o crescimento do país A">
+
+        <label class="label" for="crescimentoB">Crescimento do País B</label>
+        <input class="input" id="crescimentoB" type="number" placeholder="Informe o crescimento do país B">
+
+        <button id="botaoLogin" onclick="calcular()">Calcular</button>
+    </div>
+
+</body>
+</html>
